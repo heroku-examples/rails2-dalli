@@ -2,4 +2,6 @@ Simple rails 2 web counter<br/>
 
 This page has been hit <%= @counter %> times<br/>
 
-Session <%= session[:counter] %>
+Session <%= session[:counter] %><br/>
+
+SessionStore Class <%= ActionController::Base.session_store.to_s %>
