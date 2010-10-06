@@ -1,2 +1,2 @@
 rails --version 2.3.9
-dalli
+dalli --version 0.9.9

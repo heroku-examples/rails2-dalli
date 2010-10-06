@@ -29,5 +29,3 @@ config.action_view.cache_template_loading            = true
 
 require 'active_support/cache/dalli_store23'
 config.cache_store = :dalli_store
-config.action_controller.session = { :cache => config.cache_store,
-  :key => '_our_session' }
